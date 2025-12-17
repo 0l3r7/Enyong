@@ -7,7 +7,7 @@ import ThirdPlacer from "../ranking/rankingPic/thirdPlacer.png";
 
 function StudentRanking() {
   const [expanded, setExpanded] = useState(false);
-
+ 
   const leaderboard = [
     { rank: 1, name: "GERWIN", level: "LVL 45", number: "0969" },
     { rank: 2, name: "REIN", level: "LVL 40", number: "0939" },
