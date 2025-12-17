@@ -122,7 +122,7 @@ export default function QuizUI({
 
       {/* --- MAIN CONTENT CONTAINER --- */}
       {/* This holds Card, Choices, and Button in a vertical column */}
-      <div className="flex flex-col justify-center items-center -mt-24 w-full">
+      <div className="flex flex-col justify-center items-center -mt-10 w-full">
         
         {/* 1. QUESTION CARD */}
         <div className="flex justify-center items-center pb-4 relative z-0">
