@@ -87,11 +87,13 @@ function Home() {
                 
                  {/* Ranking and Maharlika */}
                 <div className='flex flex-col justify-center items-center'>
+                    {/* Ranking */}
+                    <Link to={"/ranking"}>
                     <div className='flex flex-row  cursor-pointer'>
                     {/* Score button */}
                     <img
                     src={scorePic}
-                    alt="score"
+                    alt="Ranking"
                     className="w-10 h-10"
                     />
 
@@ -101,6 +103,7 @@ function Home() {
                     </h1>
 
                     </div>
+                    </Link>
                                         <div className='flex flex-row mb-5 cursor-pointer'>
                     {/* maharlika */}
                     <img
